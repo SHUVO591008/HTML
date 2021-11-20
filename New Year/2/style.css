@@ -1,0 +1,108 @@
+*{
+	margin: 0px;
+	padding:0px;
+	font-family: sans-serif;
+}
+
+body{
+
+	background:url(1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.container {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    right: 100px;
+    bottom: 80px;
+    background-image: url(1.jpg);
+    width: 50%;
+    margin: auto;
+    color: honeydew;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0 8px 2px #c7dc5940;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2 {
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 6px;
+    color: blanchedalmond;
+}
+
+.container h2 span {
+    display: block;
+    font-size: 1.50em;
+    letter-spacing: 6px;
+    font-weight: 600;
+    color: chartreuse;
+}
+.countyear{
+	margin-top: 50px;
+}
+.countyear div {
+    width: 100px;
+    position: relative;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    background: #171717c7;
+    margin: 0 15px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.50em;
+}
+
+.countyear div:before {
+    content: '';
+    width: 100%;
+    background: #ff3;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    font-size: .80em;
+}
+
+.countyear #day:before {
+    content: 'Day';
+    color: black;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+
+.countyear #hour:before {
+    content: 'Hour';
+    color: black;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+
+.countyear #minute:before {
+    content: 'Minute';
+    color: black;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+.countyear #second:before {
+    content: 'Second';
+    color: black;
+    line-height: 45px;
+    font-weight: 600;
+    letter-spacing: .1em;
+}

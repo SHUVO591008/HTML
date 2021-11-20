@@ -1,0 +1,316 @@
+
+body{font-family:Roboto}
+
+
+/*====Header Top css====*/
+.building_header{
+    background: #f5f5f5;
+}
+
+.header_icon{display: flex}
+.email_icon{}
+.email_icon i{}
+.email_icon span{}
+
+.phone_icon{}
+.phone_icon i{}
+.phone_icon span{}
+
+/*====Header Top End css====*/
+
+
+/*====Header Bottom css====*/
+.building_header_bottom{background: #ffffff}
+.logo{}
+.logo img {
+    width: 102px;
+}
+.building_header_bottom .building_menu{}
+.building_header_bottom .building_menu{}
+.building_header_bottom .building_menu ul{}
+.building_header_bottom .building_menu li{}
+.building_header_bottom .building_menu li a{}
+
+.search_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.search_icon i{}
+
+/*====Header Bottom End css====*/
+
+
+
+
+/*====Slider css====*/
+
+.bulding_slider {
+    position: absolute;
+    top: 27%;
+    width: 50%;
+}
+
+.bulding_slider h1 {
+    font-size: 55px;
+    font-family: Montserrat;
+    font-weight: 800;
+}
+.bulding_slider p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 542px;
+}
+
+/*====Slider End css====*/
+
+/*====Slider bottom css====*/
+
+.slider_bottom {
+    position: absolute;
+    width: 100%;
+    background: yellow;
+    height: 57px;
+    top: 100%;
+}
+
+
+.slider_contant{}
+
+.slider_contant input {
+    border-radius: 0!important;
+    border: 1px solid #65636352;
+}
+.slider_bottom_contant{}
+
+/*====Slider bottom End css====*/
+
+/*====Our Service css====*/
+
+.Our_service_top{}
+.Our_service_top h2 {
+    font-family: Montserrat;
+    color: #3b404f;
+    font-size: 36px;
+}
+.Our_service_top p {
+    width: 59%;
+    font-size: 14px;
+    color: #6d7396;
+    margin: auto;
+}
+
+.Our_service_mid{}
+.Our_service_mid_content{}
+.Our_service_mid_content img{}
+.Our_service_mid_content h5 {
+    font-size: 22px;
+    font-family: Montserrat;
+    color: #3b404f;
+    font-weight: 600;
+    margin-bottom: 0!important;
+}
+.Our_service_mid_content p {
+    font-size: 14px;
+    color: #6d7396;
+    font-family: roboto;
+}
+.Our_service_mid_content a {
+    font-size: 14px;
+    font-family: roboto;
+    color: #6d7396;
+    padding-bottom: 4px!important;
+}
+
+.img_overlay {
+    position: absolute;
+    background: #fab70285;
+    width: 92.50%;
+    top: -244px;
+    max-width: 100%;
+    height: 59.50%;
+    transition: .5s;
+}
+
+.our_img:hover .img_overlay{cursor: pointer; top: 0;}
+.Our_service_mid_content h5:hover{color: #fab702;cursor: pointer}
+.Our_service_mid_content a:hover{color: #ffb700;
+                                    cursor: pointer;
+                                    border-bottom: 2px solid #edf120!important;
+                                    width: 30%;
+                                    }
+
+
+
+.vedio_section{background: #f8f8f8}
+.vedio_content{}
+.vedio_content .img_icon {
+    font-size: 55px;
+    color: #2a838c;
+}
+.vedio_content .img_icon i{}
+.vedio_content_div {
+    margin-left: 82px;
+}
+.vedio_content_div h4 {
+    font-size: 21px;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.vedio_content_div p {
+    font-size: 15px;
+    font-family: roboto;
+    color: #6d7396;
+    letter-spacing: 1px;
+}
+
+
+/*====Our Service End css====*/
+
+/*====Work Service====*/
+#work .work_service_top h2 {
+    font-family: Montserrat;
+    color: #3b404f;
+    font-size: 36px;
+}
+#work .work_service_top p {
+    width: 59%;
+    font-size: 14px;
+    color: #6d7396;
+    margin: auto;
+    padding-bottom: 23px!important;
+}
+
+
+.work_img_overlay h3 {
+    font-size: 20px;
+    font-family: roboto;
+    color: #3b404f;
+    font-weight: 500;
+    margin: 0;
+    float: left;
+    margin-right: 25px;
+}
+
+
+.work_img_overlay {
+    position: absolute;
+    width: 100%;
+    background: #fdfdfdd1;
+    min-height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -127px;
+    transition: .7s;
+}
+
+
+.work_icon span {
+    background: #fab702;
+    padding: 7px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.work_item{cursor: pointer}
+
+.work_item:hover .work_img_overlay{bottom: 0;}
+/*====Work Service End css====*/
+
+
+/*====Customer  Service css====*/
+
+#customer .customer_service_top h2 {
+    font-family: Montserrat;
+    color: #3b404f;
+    font-size: 36px;
+}
+#customer .customer_service_top p {
+    width: 59%;
+    font-size: 14px;
+    color: #6d7396;
+    margin: auto;
+    padding-bottom: 23px!important;
+}
+
+#customer .fedback_img{}
+#customer .fedback_img img{}
+#customer .fedback_news {
+    background: #f9f9f9;
+    padding: 7px 15px;
+}
+#customer .fedback_news p {
+    font-size: 14px;
+    margin: 0;
+    font-family: roboto;
+    color: #6d7396;
+}
+#customer .fedback_news h5 {
+    font-size: 11px;
+    font-family: roboto;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3b404f;
+    margin: 0;
+    margin-top: 12px;
+}
+
+
+.owl-carousel .owl-dots{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #e8a50e;;
+}
+
+section#counter {
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    min-height: 136px;
+}
+
+.counter_img_overlay {
+    background-color: hsla(0, 2%, 7%, 0.75);
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#counter .counter_news h5 {
+    font-size: 12px;
+    font-family: roboto;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 10px;
+}
+#counter .counter_news span {
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+/*====Customer  Service End css====*/
